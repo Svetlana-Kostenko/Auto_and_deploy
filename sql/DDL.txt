@@ -1,0 +1,10 @@
+CREATE TABLE public.finance (
+	id serial4 NOT NULL,
+	doc_id varchar NOT NULL,
+	item varchar NULL,
+	category varchar NULL,
+	amount varchar NULL,
+	price float4 NULL,
+	discount float4 NULL,
+	CONSTRAINT finance_pkey PRIMARY KEY (id)
+);
